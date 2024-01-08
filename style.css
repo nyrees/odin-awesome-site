@@ -1,11 +1,19 @@
 body {
-
+margin: 0;
 }
 
-.header, .footer {
+.header, .footer, .herobox {
     
     color: white;
     background-color: #1F2937 ;
+    padding: 0 150px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 150px;
+    
 }
 
 .right li, .right a {
@@ -15,23 +23,30 @@ body {
     margin: 0;
 }
 .right ul {
-    padding:0;
+    padding:0;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
 }
 
 .left {
     font-size: 24px;
-    color:#red;
+    font-weight: 00;
+    
 }
 
 .right {
     display: flex;
-
+    justify-content: center;
+    align-items: center;
 }
 
 .hero {
 
     display: flex;
     background-color: #1F2937 ;
+    
 }
 
 
@@ -57,20 +72,25 @@ body {
     background-color: #E5E7EB;
 }
 
+.main {
+    
+}
+
 .maintitle {
     color: #1F2937;
     font-size: 36px;
     font-weight: 800;
-    
+    padding: 0 150px;
 }
 
 
 .cardcontainer {
+    
 
 }
 
 .cardholder {
-
+    padding: 0 150px;
 }
 
 .card {
@@ -85,12 +105,14 @@ body {
 
 .inspire {
     background-color: #E5E7EB;
+    padding: 0 150px;
 }
 
 .quote {
     color: #1F2937;
     font-size: 36px;
-    font-style: light-italic;
+    font-style: italic;
+    padding: 50px;
 }
 
 .quoteby {
@@ -102,6 +124,8 @@ body {
 .calltime {
     background-color: #3882F6;
     color: #F9FAF8;
+    padding: 0 150px;
+    margin:20px 150px
 }
 
 .calltext {
@@ -111,5 +135,12 @@ body {
 .signupbutton {
     border: white 2px;
     border-radius: 10px;
-    
+
+}
+
+.footer {
+
+    padding: 20px;
+    display: flex;
+    justify-content: center;
 }
