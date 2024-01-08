@@ -13,6 +13,7 @@ margin: 0;
     display: flex;
     justify-content: space-between;
     padding: 15px 150px;
+    align-items: center;
     
 }
 
@@ -32,7 +33,7 @@ margin: 0;
 
 .left {
     font-size: 24px;
-    font-weight: 00;
+    font-weight: 700;
     
 }
 
@@ -73,51 +74,73 @@ margin: 0;
 }
 
 .main {
-    
+    padding: 0 150px;
+    margin:20px 150px;
+
 }
 
 .maintitle {
     color: #1F2937;
     font-size: 36px;
     font-weight: 800;
-    padding: 0 150px;
+    display: flex;
+    justify-content: center;
+    padding: 20px; 0;
+    
 }
 
 
 .cardcontainer {
-    
+    display: flex;
+    justify-items: center;
 
 }
 
 .cardholder {
-    padding: 0 150px;
+    display:block;
+   
+    
 }
 
 .card {
     border: #3882F6 solid 4px;
     border-radius: 10px;
+    width: 75px;
+    height:75px;    
+    display: flex;
+    justify-content: center;
+    margin: auto;
 }
 
 .cardtext {
-    font-size: ;
+    font-size:;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+
 }
 
 
 .inspire {
     background-color: #E5E7EB;
-    padding: 0 150px;
+    padding: 50px 150px;
+    margin:100px 0;
 }
 
 .quote {
     color: #1F2937;
     font-size: 36px;
     font-style: italic;
-    padding: 50px;
+    
 }
 
 .quoteby {
     font-weight: 600;
     font-size: 20px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
 }
 
 
