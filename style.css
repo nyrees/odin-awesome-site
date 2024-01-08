@@ -1,0 +1,23 @@
+body {
+
+}
+
+.header, .footer {
+    
+    color: white;
+    background-color: #1F2937 ;
+}
+
+.left {
+
+}
+
+.right {
+    display: flex;
+
+}
+
+.hero {
+
+    display: flex;
+}
