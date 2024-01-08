@@ -1,18 +1,21 @@
 body {
-margin: 0;
+margin:0 200px ;
+background-color: black;
+font-family: "Roboto", serif;
+
 }
 
 .header, .footer, .herobox {
     
     color: white;
     background-color: #1F2937 ;
-    padding: 0 150px;
+    padding: 0 235px;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
-    padding: 15px 150px;
+    padding: 15px 235px;
     align-items: center;
     
 }
@@ -43,10 +46,22 @@ margin: 0;
     align-items: center;
 }
 
+.herobox {
+    padding-top: 80px;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+
+
+}
+
 .hero {
 
-    display: flex;
+    display: block;
     background-color: #1F2937 ;
+    width: 50%;
+    
     
 }
 
@@ -54,6 +69,7 @@ margin: 0;
 .herotext {
     color: #F9FAF8;
     font-size: 48px;
+    font-weight: 800;
 }
 
 .herosubtext, .right a {
@@ -63,19 +79,38 @@ margin: 0;
 
 .herosignup {
     color: white;
+    margin: 15px 0 0px;
+
+
+}
+
+.herosignup a {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
     background-color: #3882F6;
-    border-radius: 10px;
-    padding: 15px;
+    border-radius: 5px;
+    padding: 5px 20px;
+    
 }
 
 .heroimg {
     color: white;
-    background-color: #E5E7EB;
+    background-color: #797979;
+    width:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    min-height: 235px;
 }
 
 .main {
-    padding: 0 150px;
-    margin:20px 150px;
+    padding: 20 200px;
+    
+    background-color: white;
+    display: block;
+    justify-content: center;
 
 }
 
@@ -92,24 +127,29 @@ margin: 0;
 
 .cardcontainer {
     display: flex;
-    justify-items: center;
+    justify-content: center;
+    padding: 20px 150px;
+    flex-wrap: wrap;
+    gap: 40px;
 
 }
 
 .cardholder {
     display:block;
-   
+    justify-content: center;
     
 }
 
 .card {
     border: #3882F6 solid 4px;
     border-radius: 10px;
-    width: 75px;
-    height:75px;    
+    width: 150px;
+    height:150px;    
     display: flex;
     justify-content: center;
     margin: auto;
+
+
 }
 
 .cardtext {
@@ -117,15 +157,17 @@ margin: 0;
     display: flex;
     justify-content: center;
     text-align: center;
+    margin: auto;
     padding: 10px;
+    width: 100px;
 
 }
 
 
 .inspire {
     background-color: #E5E7EB;
-    padding: 50px 150px;
-    margin:100px 0;
+    padding: 50px 235px;
+    
 }
 
 .quote {
@@ -143,21 +185,43 @@ margin: 0;
     padding-right: 20px;
 }
 
+.callup {
+    background-color: white;
+    padding: 50px 150px;
+    display: flex;
+    justify-content: center;
+    
+}
+
 
 .calltime {
     background-color: #3882F6;
     color: #F9FAF8;
-    padding: 0 150px;
-    margin:20px 150px
+    padding: 40px 150px;
+    border-radius: 10px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 400px;
 }
 
 .calltext {
     color:white;
+    font-weight: 800;
+    font-size: large;
+    padding: 5px 0;
+    max-width: 300px;
 }
 
 .signupbutton {
-    border: white 2px;
-    border-radius: 10px;
+    border: white solid 2px;
+    border-radius: 5px;
+    padding: 0px 20px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    width: 100px;
+    height: 30px;
 
 }
 
